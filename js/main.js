@@ -8,5 +8,5 @@ function generateKey(length, characters) {
   return str;
 }
 
-key = generateKey(16, characters);
+const key = generateKey(16, characters);
 console.log(key);
